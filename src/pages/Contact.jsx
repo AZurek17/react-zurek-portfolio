@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import { useState } from 'react';
 import "../styles/SearchForm/style.css";
 import "../styles/SearchResults/style.css";
+import { checkPassword, validateEmail } from '../../utils/helpers';
 
 class Search extends Component {
   state = {
@@ -53,38 +54,27 @@ class Search extends Component {
           </div>
           <form className="search">
             <div className="form-group">
-              <label htmlFor="breed">Breed Name:</label>
+              <label htmlFor="name">first Name:</label>
               <input
                 value={this.state.search}
                 onChange={this.handleInputChange}
-                name="breed"
-                list="breeds"
+                name="name"
+                list="names"
                 type="text"
                 className="form-control"
-                placeholder="Type in a dog breed to begin"
-                id="breed"
+                placeholder="name"
+                id="name"
               />
-              <datalist id="breeds">
-                {this.state.breeds.map((breed) => (
-                  <option value={breed} key={breed} />
-                ))}
-              </datalist>
               <button
                 type="submit"
                 onClick={this.handleFormSubmit}
                 className="btn btn-success"
               >
-                Search
+                Send Message
               </button>
             </div>
           </form>
-          <ul className="list-group search-results">
-            {this.state.results.map((result) => (
-              <li key={result} className="list-group-item">
-                <img alt="Dog" src={result} className="img-fluid" />
-              </li>
-            ))}
-          </ul>
+          
         </div>
       </div>
     );
