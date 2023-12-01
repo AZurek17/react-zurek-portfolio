@@ -19,7 +19,7 @@ function Navbar() {
                   : "nav-link"
               }
             >
-              Home
+              
             </Link>
           </li>
           <li className="nav-item">

@@ -3,7 +3,7 @@ import "../styles/Hero/style.css";
 function About() {
   return (
     <div>
-      <div className="hero text-center" style={{ backgroundImage: "url(https://i.imgur.com/qkdpN.jpg)" }}
+      <div className="hero text-center" style={{ backgroundImagePath: "../images/zurek" }}
       >
         <h1>Hi! I'm Andy Zurek</h1>
         <h2>Welcome to my page! 😎  </h2>
