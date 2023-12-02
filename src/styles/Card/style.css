@@ -1,16 +1,43 @@
 .card {
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-clip: content-box;
   border: 6px solid white;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
 }
 
+.rCard1 {
+  background-image: url("../../images/resume/Zurek resume.png");
+  background-size: 100%;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  height:900px;
+  width: 750px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.rCard2 {
+  background-image: url("../../images/resume/Zurek resume2.png");
+  background-size: 100%;
+  background-position: top;
+  background-clip: content-box;
+  border: 6px solid white;
+  height: 900px;
+  width: 750px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30px;
+}
 .card .fa-spinner {
   font-size: 180px;
   position: absolute;

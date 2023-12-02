@@ -2,10 +2,18 @@ import "../styles/Hero/style.css";
 
 function Resume() {
   return (
-    <div>
-      <div className="hero text-center" id="resumeBg">
-       
-       
+    <div className="container" id="resumeBg">
+      <div className="row">
+      <div className="col-8">
+      <div className="rCard1">
+                </div>
+      <div className="rCard2">
+      </div>
+    
+      </div>
+      <div className="col-4">
+      <div className="hero text-center" >
+      
      <div className="hero text-right" id="resume">
             <h4>Front-end Proficiencies:</h4>    
                 <li>HTML,</li>
@@ -32,8 +40,9 @@ function Resume() {
                 <button className="btn" id='btnResume'>Download My Resume Here!</button>
      </div>
      
-     
+     </div>
       </div>
+    </div>
     </div>
     
   );
