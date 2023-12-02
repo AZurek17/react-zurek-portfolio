@@ -43,3 +43,25 @@
 
 }
  
+#bgZurek {
+  background-image: url("../../images/Home.jpg");
+  background-size: fill;
+  /* background-repeat: no-repeat; */
+  background-position: bottom;
+  /* min-height: 500px; */
+  /* padding-bottom: 100px; */
+}
+
+#welcome{
+  padding-top: 180px;
+  font-size: 60px;
+  font-family: "Lucida Handwriting";
+  color:white;
+}
+
+#welcome1{
+  padding-top: 40px;
+  font-size: 60px;
+  font-family: "Lucida Handwriting";
+  color:white;
+}

@@ -2,3 +2,14 @@ nav.navbar.navbar-default {
   min-height: 150px;
   margin-bottom: 0;
 }
+
+#zurek {
+  font-style: cursive;
+  font-family: "Lucida Handwriting";
+  color:blue
+}
+
+#navbar {
+  display: flex;
+  justify-content: left;
+}

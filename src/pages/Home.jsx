@@ -5,16 +5,14 @@ function Home() {
     <div>
       <div
         className="hero text-center"
-        style={{
-          backgroundImage: `url('../images/home.jpg' )`,
-          backgroundSize: "cover",
-        }}
+        id="bgZurek"
       >
-        <h1>
+        <h1 id="welcome1">
           ✌️ Hello World! ✌️ <br></br>I&apos;m Andy Zurek
         </h1>
         <br></br>
-        <h2>Welcome to my page! 😎 </h2>
+        
+        <h2 id="welcome">Welcome to my page! 😎 </h2>
       </div>
     </div>
   );

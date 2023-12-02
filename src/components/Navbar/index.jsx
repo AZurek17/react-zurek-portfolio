@@ -6,10 +6,10 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-        <h1>Zurek Portfolio</h1>
+        <h1  >Zurek<span id="zurek"> <h2>Portfolio</h2> </span></h1>
       </Link>
       <div>
-        <ul className="navbar-nav">
+        <ul className="navbar-nav" id="Navbar">
           <li className="nav-item">
             <Link
               to="/"
