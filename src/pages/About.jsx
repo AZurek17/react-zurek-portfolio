@@ -5,9 +5,17 @@ function About() {
     <div>
       <div
         className="hero text-center"
-        style={{ backgroundImagePath: "../images/" }}
+        id="aboutBg"
       >
-        <h1>Here is just a little about me </h1>
+        <h2 id="welcome">
+        ✌️Hello World!✌️ <br></br>Welcome to my page! 😎
+        </h2>
+  
+        <img id="zphoto"></img>
+         <h2><span id="welcome"></span> I&apos;m Andy Zurek</h2>
+         <h2 id="welcome">
+        Welcome to my page! 😎
+        </h2>
         <h5>
           For the past 23 year, I've been a Structural Drafter/Designer/Special
           Inspector. I wanted a change and switching to a Full Stack Developer

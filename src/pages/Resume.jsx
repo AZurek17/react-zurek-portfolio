@@ -3,30 +3,23 @@ import "../styles/Hero/style.css";
 function Resume() {
   return (
     <div>
-      <div className="hero text-right">
-        <a><h2>Download my resume here</h2></a>
-        <div className={`row`}>
-          <div className={"md-12"}>
-      <div className="hero text-left" style={{ backgroundImagePath: "../images/" }}>
-
-
-        <h5>Front-end Proficiencies:</h5>
-              <ul>     
+      <div className="hero text-center" id="resumeBg">
+       
+       
+     <div className="hero text-right" id="resume">
+            <h4>Front-end Proficiencies:</h4>    
                 <li>HTML,</li>
                 <li>CSS,</li>
                 <li>JaveScript,</li>
                 <li>jQuery,</li>
-                <li>responsive design,</li>
+                <li>Responsive design,</li>
                 <li>React,</li>
                 <li>BootStrap,</li>
                 <li>Bulma</li>
-              </ul> 
-              </div>
-        </div>
-        <div className={`row`}>
-          <div className={"md-12"}>
-        <h5>Back-end Proficiencies:</h5>
-              <ul>     
+                <br></br>
+           
+          <h4>Back-end Proficiencies:</h4>
+          
                 <li>APIs,</li>
                 <li>Node,</li>
                 <li>Express,</li>
@@ -34,12 +27,12 @@ function Resume() {
                 <li>MongoDB, Mongoose</li>
                 <li>Rest</li>
                 <li>GraphQL</li>
-              </ul> 
-
-        </div>
-      </div>
-
-      </div>
+       
+  <br></br>
+                <button className="btn" id='btnResume'>Download My Resume Here!</button>
+     </div>
+     
+     
       </div>
     </div>
     

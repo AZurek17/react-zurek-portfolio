@@ -1,5 +1,13 @@
 .wrapper {
-  min-height: 500px;
+  min-height: 650px;
+  /* padding-bottom: 100px; */
+}
+#contactBg{
+  background-image: url("../../images/contactBg.jpg");
+  background-size: fill;
+  /* background-repeat: no-repeat; */
+  background-position: bottom;
+  /* min-height: 500px; */
   /* padding-bottom: 100px; */
 }
 

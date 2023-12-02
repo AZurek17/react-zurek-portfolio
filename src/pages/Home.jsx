@@ -7,9 +7,13 @@ function Home() {
         className="hero text-center"
         id="bgZurek"
       >
-        <h1 id="welcome1">
-          ✌️ Hello World! ✌️ <br></br>I&apos;m Andy Zurek
-        </h1>
+        <h2 id="welcome">
+           Hello World! ✌️ <br></br>✌️<img id="zphoto"></img><br></br>I&apos;m Andy Zurek
+        </h2>
+
+     
+          
+       
         <br></br>
         
         <h2 id="welcome">Welcome to my page! 😎 </h2>
