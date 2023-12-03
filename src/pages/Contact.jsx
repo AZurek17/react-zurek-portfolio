@@ -32,8 +32,8 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('🤔 Email is invalid 🤔');
-    if (!userName) {
+      setErrorMessage('🤔 No Email entered 🤔');
+    if (!userName || !message) {
       setErrorMessage('🤔 No username entered 🤔');
     if (!message) {
       setErrorMessage('🤔 No Message entered 🤔');
@@ -54,7 +54,7 @@ function Contact() {
     return (
       <div id='contactBg'>
       <div className="container text-center"  >
-        <h2>😁Send me a message😁 {userName}</h2>
+        <h2>😁Send me a message😁</h2>
         <form className="form" onSubmit={handleFormSubmit}>
         <div className="container text-left">
         Name:
@@ -85,14 +85,15 @@ function Contact() {
             placeholder="Enter a short message here"
           />
           </div>
-          <button type="submit">Send Message</button>
+          <button type="submit" id='btnResume'>Send Message</button>
           
-        </form>
+        
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <h3 className="error-text">{errorMessage}</h3>
           </div>
         )}
+        </form>
       </div>
       </div>
     );

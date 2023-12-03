@@ -61,8 +61,12 @@
 }
 
 #titleP {
- background-color: white;
+ background-color: rgb(187, 175, 175);
  color: black;
+ font-family: "Lucida Handwriting";
+  font-size: 18px;
+  color: rgb(23, 23, 179);
+  padding: 8px;
 }
 
 #pCard2 {
@@ -176,4 +180,7 @@
 }
 .card:hover .hiddenLink{
   display: inline;
+  transform: scale(1.15);
+ 
 }
+

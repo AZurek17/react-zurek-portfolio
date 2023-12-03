@@ -165,7 +165,7 @@ class Discover extends Component {
 
               <div className="col">
                   <div className="card" id="pCard8">
-                    <h3 id='titleP'>Zurek Porfolio</h3>
+                    <h3 id='titleP'>React - Porfolio</h3>
                     <a
                       className="hiddenLink"
                       href="#"

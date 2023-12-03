@@ -16,6 +16,8 @@ function Resume() {
       <div className="hero text-center" >
       
      <div className="hero text-left mx-5" id="resume">
+     <h2><span id="zurek">Brief Resume:</span></h2>
+     <br></br>  
             <h4>Front-end Proficiencies:</h4>    
                 <li>HTML,</li>
                 <li>CSS,</li>
@@ -24,6 +26,7 @@ function Resume() {
                 <li>Responsive design,</li>
                 <li>React,</li>
                 <li>BootStrap,</li>
+
                 <br></br>
            
           <h4>Back-end Proficiencies:</h4>
@@ -37,7 +40,7 @@ function Resume() {
                 <li>GraphQL</li>
        
   <br></br>
-                <button className="btn" id='btnResume'><a href='https://www.dropbox.com/scl/fi/ecr3mqrtkki7439qhu8t4/zurek-resume.pdf?rlkey=0ezj6b2h34iesd3xcwl48vlev&dl=0'>Download My Resume Here!</a></button>
+                <button className="btn" id='btnResume'><a href='https://www.dropbox.com/scl/fi/ecr3mqrtkki7439qhu8t4/zurek-resume.pdf?rlkey=0ezj6b2h34iesd3xcwl48vlev&dl=0'>Download Full Resume Here!</a></button>
      </div>
      
      </div>

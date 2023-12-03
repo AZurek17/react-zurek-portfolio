@@ -119,7 +119,7 @@
 }
 
 #btnResume {
-  background-color: #4CAF50; /* Green */
+  background-color: blue; /* Green */
   border: none;
   color: white;
   padding: 10px 30px;
@@ -130,12 +130,22 @@
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
+  
+
+
+
 }
 #resume {
   color: white;
   font-size: 12px;
   justify-items: right;
 }
+#resume a {
+  color: white;
+  font-size: 18px;
+  justify-items: right;
+}
+
 
 
 #pBg {
