@@ -16,7 +16,7 @@ function About() {
         <br></br>
         <h5>
           A little about me:<br></br>
-          For the past 23 year, I&apos;ve been a Structural Drafter/Designer/Special
+          For the past 23 years, I&apos;ve been a Structural Drafter/Designer/Special
           Inspector. I wanted a change and switching to a Full Stack Developer
           fits and feels right!
           <br></br>As a Full Stack Developer, I want to continue to build a

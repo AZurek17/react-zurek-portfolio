@@ -38,7 +38,7 @@ function Resume() {
                 <li>GraphQL</li>
        
   <br></br>
-                <button className="btn" id='btnResume'>Download My Resume Here!</button>
+                <button className="btn" id='btnResume'><a href='https://www.dropbox.com/scl/fi/ecr3mqrtkki7439qhu8t4/zurek-resume.pdf?rlkey=0ezj6b2h34iesd3xcwl48vlev&dl=0'>Download My Resume Here!</a></button>
      </div>
      
      </div>

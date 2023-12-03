@@ -8,16 +8,16 @@
 
  * node - https://nodejs.org/en/about
  * npm - https://www.npmjs.com/
- * react -
- * react-dom -
- * eslint -
-
-
-
+ * react - https://react.dev/
+ * react-dom - https://legacy.reactjs.org/docs/react-dom.html
+ * react-router-dom - https://reactrouter.com/en/main
+ * vite - https://vitejs.dev/
+ * eslint - https://eslint.org/
+ 
 
  ## Description
 
-
+ A Portfolio created using React and a few additional technologies listed above. 
 
 
  ## Table of Contents
@@ -37,7 +37,11 @@
 
 ## Usage
 
-
+When the page loads. the user see a navbar on the top a About page then a footer.
+When you click the navbar sections: About, Portfolio, Contact, Resume, you are directed to that page. 
+You might also notice the text change color as you hover over them, and the current page will be have a different color.
+In the Portfolio Page you will notive the project icons and webpage link are hidden until you hover over the project cards.
+In the Resume Page, I have a link in the button that direct you to a resume to download.
 
 
 
