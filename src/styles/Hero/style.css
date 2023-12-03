@@ -42,7 +42,21 @@
   margin-top: 0;
 
 }
- 
+.hero h3 {
+  color: white;
+  font-size: 24px;
+  padding: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0;
+}
+#date {
+  color: rgb(194, 10, 10);
+  font-size: 32px;
+  padding: 20px;
+  margin-top: 0;
+}
+
 #bgZurek {
   background-image: url("../../images/resumebg1.jpg");
   background-size: fill;

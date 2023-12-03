@@ -1,6 +1,8 @@
 import "../styles/Hero/style.css";
 
 function About() {
+
+  var today = dayjs().format('MMM D, YYYY');
   return (
     <div>
       <div
@@ -26,6 +28,7 @@ function About() {
           Head over to the Resume page for a summary of my Developer skills I&apos;ve
           recently learned
         </h5>
+        <h3>This site was created on Dec 2, 2023 and today is <span id="date">{today}</span></h3>
       </div>
     </div>
   );
