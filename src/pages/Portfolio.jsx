@@ -13,6 +13,7 @@ class Discover extends Component {
               <div className="row">
                 <div className="col">
                   <div className="card" id="pCard1">
+                  <h3 id='titleP'>Team Project 1</h3>
                     <a
                       className="hiddenLink"
                       href="https://jacastro619.github.io/Pick4Me/"
@@ -32,6 +33,7 @@ class Discover extends Component {
 
                 <div className="col">
                   <div className="card" id="pCard2">
+                  <h3 id='titleP'>Team Project 2</h3>
                     <a
                       className="hiddenLink"
                       href="https://frozen-mesa-56300-52dd9f520f9a.herokuapp.com/"
@@ -51,9 +53,10 @@ class Discover extends Component {
 
                 <div className="col">
                   <div className="card" id="pCard3">
+                  <h3 id='titleP'>NoSQL</h3>
                     <a
                       className="hiddenLink"
-                      href="https://frozen-mesa-56300-52dd9f520f9a.herokuapp.com/"
+                      href="PWA-Text-Editor"
                       target="_blank"
                     >
                       <h5>Visit Deployed Site</h5>
@@ -61,7 +64,7 @@ class Discover extends Component {
 
                     <a
                       className="hiddenLink"
-                      href="https://github.com/Truecoding4life/api-adventures"
+                      href="https://github.com/AZurek17/pwa-text-editor"
                       target="_blank"
                     >
                       <i className="icon-github" id="myIcon"></i>
@@ -72,9 +75,10 @@ class Discover extends Component {
 
               <div className="col">
                   <div className="card" id="pCard4">
+                  <h3 id='titleP'>ORM-E-COM</h3>
                     <a
                       className="hiddenLink"
-                      href="https://app.screencastify.com/v2/watch/Tp2AvMyNSZOjduf1pa5u"
+                      href="https://app.screencastify.com/v2/watch/GkLn6BAAw9DhN8k4BYd0"
                       target="_blank"
                     >
                       <h5> Walkthrough Video Link </h5>
@@ -82,7 +86,7 @@ class Discover extends Component {
 
                     <a
                       className="hiddenLink"
-                      href="https://github.com/AZurek17/nosql-social-network-api"
+                      href="https://github.com/AZurek17/orm-e-com-back-end"
                       target="_blank"
                     >
                       <i className="icon-github" id="myIcon"></i>
@@ -94,6 +98,7 @@ class Discover extends Component {
               
               <div className="col">
                   <div className="card" id="pCard5">
+                  <h3 id='titleP'>SQL-Employee-Tracker</h3>
                     <a
                       className="hiddenLink"
                       href="https://app.screencastify.com/v2/watch/6QiUleTCpNdZ3OPlpNIJ"
@@ -116,6 +121,7 @@ class Discover extends Component {
               
               <div className="col">
                   <div className="card" id="pCard6">
+                  <h3 id='titleP'>Node-README-Generator</h3>
                     <a
                       className="hiddenLink"
                       href="https://app.screencastify.com/v2/watch/JmFmh8sQQOOvlu2DUJvh"
@@ -137,6 +143,7 @@ class Discover extends Component {
               
               <div className="col">
                   <div className="card" id="pCard7">
+                  <h3 id='titleP'>PWA Text Editor</h3>
                     <a
                       className="hiddenLink"
                       href="https://jate-text-editor-jzsu.onrender.com/"
@@ -156,9 +163,9 @@ class Discover extends Component {
                 </div>
               </div>
 
-              
               <div className="col">
                   <div className="card" id="pCard8">
+                    <h3 id='titleP'>Zurek Porfolio</h3>
                     <a
                       className="hiddenLink"
                       href="#"

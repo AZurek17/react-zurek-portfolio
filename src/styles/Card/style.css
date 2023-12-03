@@ -60,6 +60,11 @@
   margin-top: 30px;
 }
 
+#titleP {
+ background-color: white;
+ color: black;
+}
+
 #pCard2 {
   background-image: url("../../images/projects/API-Adventures-Screenshot.png");
   background-size: 100%;
@@ -88,6 +93,84 @@
   margin: 0 auto;
   margin-top: 30px;
 }
+
+#pCard4 {
+  background-image: url("../../images/projects/P4-Screenshot.png");
+  background-size: 100%;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  height:250px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#pCard5 {
+  background-image: url("../../images/projects/P5-Screenshot.png");
+  background-size: 100%;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  height:250px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#pCard6 {
+  background-image: url("../../images/projects/P6-Screenshot.png");
+  background-size: 100%;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  height:250px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#pCard7 {
+  background-image: url("../../images/projects/P7-Screenshot.png");
+  background-size: 100%;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  height:250px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#pCard8 {
+  background-image: url("../../images/projects/P8-Screenshot.png");
+  background-size: 100%;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px solid white;
+  height:250px;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+
 .hiddenLink {
   display: none;
 }

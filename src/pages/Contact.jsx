@@ -52,7 +52,8 @@ function Contact() {
   }
 
     return (
-      <div className="container text-center" id='contactBg' >
+      <div id='contactBg'>
+      <div className="container text-center"  >
         <h2>😁Send me a message😁 {userName}</h2>
         <form className="form" onSubmit={handleFormSubmit}>
         <div className="container text-left">
@@ -92,6 +93,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+      </div>
       </div>
     );
   }
