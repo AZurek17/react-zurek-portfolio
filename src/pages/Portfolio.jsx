@@ -13,7 +13,7 @@ class Discover extends Component {
               <div className="row">
                 <div className="col">
                   <div className="card" id="pCard1">
-                  <h3 id='titleP'>Team Project 1</h3>
+                    <h3 id="titleP">Team Project 1</h3>
                     <a
                       className="hiddenLink"
                       href="https://jacastro619.github.io/Pick4Me/"
@@ -33,7 +33,7 @@ class Discover extends Component {
 
                 <div className="col">
                   <div className="card" id="pCard2">
-                  <h3 id='titleP'>Team Project 2</h3>
+                    <h3 id="titleP">Team Project 2</h3>
                     <a
                       className="hiddenLink"
                       href="https://frozen-mesa-56300-52dd9f520f9a.herokuapp.com/"
@@ -53,7 +53,7 @@ class Discover extends Component {
 
                 <div className="col">
                   <div className="card" id="pCard3">
-                  <h3 id='titleP'>NoSQL</h3>
+                    <h3 id="titleP">NoSQL</h3>
                     <a
                       className="hiddenLink"
                       href="PWA-Text-Editor"
@@ -69,19 +69,18 @@ class Discover extends Component {
                     >
                       <i className="icon-github" id="myIcon"></i>
                     </a>
-
+                  </div>
                 </div>
-              </div>
 
-              <div className="col">
+                <div className="col">
                   <div className="card" id="pCard4">
-                  <h3 id='titleP'>ORM-E-COM</h3>
+                    <h3 id="titleP">ORM-E-COM</h3>
                     <a
                       className="hiddenLink"
                       href="https://app.screencastify.com/v2/watch/GkLn6BAAw9DhN8k4BYd0"
                       target="_blank"
                     >
-                      <h5> Walkthrough Video Link </h5>
+                      <h5> Walkthrough Video </h5>
                     </a>
 
                     <a
@@ -91,20 +90,18 @@ class Discover extends Component {
                     >
                       <i className="icon-github" id="myIcon"></i>
                     </a>
-                    
+                  </div>
                 </div>
-              </div>
 
-              
-              <div className="col">
+                <div className="col">
                   <div className="card" id="pCard5">
-                  <h3 id='titleP'>SQL-Employee-Tracker</h3>
+                    <h3 id="titleP">SQL-Employee-Tracker</h3>
                     <a
                       className="hiddenLink"
                       href="https://app.screencastify.com/v2/watch/6QiUleTCpNdZ3OPlpNIJ"
                       target="_blank"
                     >
-                      <h5>Walkthrough Video Link</h5>
+                      <h5>Walkthrough Video</h5>
                     </a>
 
                     <a
@@ -114,20 +111,18 @@ class Discover extends Component {
                     >
                       <i className="icon-github" id="myIcon"></i>
                     </a>
-                    
+                  </div>
                 </div>
-              </div>
 
-              
-              <div className="col">
+                <div className="col">
                   <div className="card" id="pCard6">
-                  <h3 id='titleP'>Node-README-Generator</h3>
+                    <h3 id="titleP">Node-README-Generator</h3>
                     <a
                       className="hiddenLink"
                       href="https://app.screencastify.com/v2/watch/JmFmh8sQQOOvlu2DUJvh"
                       target="_blank"
                     >
-                      <h5>Walkthrough Video Link</h5>
+                      <h5>Walkthrough Video </h5>
                     </a>
 
                     <a
@@ -137,13 +132,12 @@ class Discover extends Component {
                     >
                       <i className="icon-github" id="myIcon"></i>
                     </a>
-                    
+                  </div>
                 </div>
-              </div>
-              
-              <div className="col">
+
+                <div className="col">
                   <div className="card" id="pCard7">
-                  <h3 id='titleP'>PWA Text Editor</h3>
+                    <h3 id="titleP">PWA Text Editor</h3>
                     <a
                       className="hiddenLink"
                       href="https://jate-text-editor-jzsu.onrender.com/"
@@ -159,18 +153,13 @@ class Discover extends Component {
                     >
                       <i className="icon-github" id="myIcon"></i>
                     </a>
-                    
+                  </div>
                 </div>
-              </div>
 
-              <div className="col">
+                <div className="col">
                   <div className="card" id="pCard8">
-                    <h3 id='titleP'>React - Porfolio</h3>
-                    <a
-                      className="hiddenLink"
-                      href="#"
-                      target="_blank"
-                    >
+                    <h3 id="titleP">React - Porfolio</h3>
+                    <a className="hiddenLink" href="#" target="_blank">
                       <h5>Visit Deployed Site</h5>
                     </a>
 
@@ -181,15 +170,8 @@ class Discover extends Component {
                     >
                       <i className="icon-github" id="myIcon"></i>
                     </a>
-                    
+                  </div>
                 </div>
-              </div>
-
-             
-                
-                
-
-
               </div>
             </div>
           </div>
