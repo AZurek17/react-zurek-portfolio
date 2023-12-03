@@ -137,3 +137,12 @@
   justify-items: right;
 }
 
+
+#pBg {
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  min-height: 700px;
+  /* padding-bottom: 100px; */
+}

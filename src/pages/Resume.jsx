@@ -2,9 +2,10 @@ import "../styles/Hero/style.css";
 
 function Resume() {
   return (
-    <div className="container" id="resumeBg">
+    <div id="resumeBg">
+    <div className="container" >
       <div className="row">
-      <div className="col-8">
+      <div className="col-6">
       <div className="rCard1">
                 </div>
       <div className="rCard2">
@@ -44,7 +45,7 @@ function Resume() {
       </div>
     </div>
     </div>
-    
+    </div>
   );
 }
 
