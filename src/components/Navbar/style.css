@@ -4,11 +4,10 @@
   background: #e5e5e5;
 } */
 
-
 #zurek {
   font-style: cursive;
   font-family: "Lucida Handwriting";
-  color:blue
+  color: blue;
 }
 
 /* #navbar {
@@ -17,8 +16,7 @@
   
 } */
 .navbar-light .navbar-nav .nav-link {
-    color: blue;
-    
+  color: blue;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -26,7 +24,3 @@
   transition: transform 0.5s;
   color: black;
 }
-
-
-
-
