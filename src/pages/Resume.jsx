@@ -5,17 +5,17 @@ function Resume() {
     <div id="resumeBg">
     <div className="container" >
       <div className="row">
-      <div className="col-6">
+      {/* <div className="col-6">
       <div className="rCard1">
                 </div>
       <div className="rCard2">
       </div>
     
-      </div>
-      <div className="col-4">
+      </div> */}
+      <div className="col-5">
       <div className="hero text-center" >
       
-     <div className="hero text-right" id="resume">
+     <div className="hero text-left mx-5" id="resume">
             <h4>Front-end Proficiencies:</h4>    
                 <li>HTML,</li>
                 <li>CSS,</li>
@@ -24,7 +24,6 @@ function Resume() {
                 <li>Responsive design,</li>
                 <li>React,</li>
                 <li>BootStrap,</li>
-                <li>Bulma</li>
                 <br></br>
            
           <h4>Back-end Proficiencies:</h4>
