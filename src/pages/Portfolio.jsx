@@ -12,31 +12,29 @@ class Discover extends Component {
           <div className="row">
             <div className="container">
               <div className="row">
+
                 <div className="col">
-                  <div className="card">
-                    <img
-                      src="../images/projects/Pick4Me-Screenshot.png"
-                      className="card-img-top"
-                      alt="Project 1"
-                    />
+                  <div className="card" id='pCard1'>
+                    <a href="https://jacastro619.github.io/Pick4Me/">
+                    <h5>Visit Deployed Site</h5>
+                    </a>
+                    <a href="https://github.com/AZurek17/AZ-Pick4Me">
+                    <i class="icon-github" id="myIcon" ></i>
+                    </a>
                   </div>
                 </div>
+
                 <div className="col">
-                  <div className="card">
-                    <img
-                      src="../images/projects/Pick4Me-Screenshot.png"
-                      className="card-img-top"
-                      alt="Project 2"
-                    />
+                  <div className="card" id='pCard2'>
+                  <a href="#"></a>
+                    <a href="#"></a>
                   </div>
                 </div>
+
                 <div className="col">
-                  <div className="card">
-                    <img
-                      src="../images/projects/Pick4Me-Screenshot.png."
-                      className="card-img-top"
-                      alt="Project 3"
-                    />
+                  <div className="card" id='pCard3'>
+                  <a href="#"></a>
+                    <a href="#"></a>
                   </div>
                 </div>
 

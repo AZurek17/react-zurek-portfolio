@@ -1,5 +1,5 @@
 .hero {
-  height: 600px;
+  height: 700px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -15,6 +15,7 @@
   left: 0;
   right: 0;
   background: black;
+  /* transform: scale(2); */
 }
 
 .hero * {
@@ -86,7 +87,7 @@
   position: relative;
   top: 00%;
   /* left: 75%; */
-  border-radius: 10%;
+  border-radius: 15%;
   width:100px;
   height: 80px;
   border: 2px solid white;
@@ -135,3 +136,4 @@
   font-size: 12px;
   justify-items: right;
 }
+

@@ -52,8 +52,8 @@ function Contact() {
   }
 
     return (
-      <div className="container text-center" id="#">
-        <h1>😁 Send me a Message 😁 {userName}</h1>
+      <div className="container text-center" id='contactBg' >
+        <h2>😁Send me a message😁 {userName}</h2>
         <form className="form" onSubmit={handleFormSubmit}>
         <div className="container text-left">
         Name:

@@ -15,6 +15,7 @@ function About() {
          <h2><span id="welcome"></span> I&apos;m Andy Zurek</h2>
         <br></br>
         <h5>
+          A little about me:<br></br>
           For the past 23 year, I&apos;ve been a Structural Drafter/Designer/Special
           Inspector. I wanted a change and switching to a Full Stack Developer
           fits and feels right!

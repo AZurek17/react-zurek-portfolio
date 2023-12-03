@@ -3,6 +3,9 @@ nav.navbar.navbar-default {
   margin-bottom: 0;
   background: #e5e5e5;
 }
+/* .navbar-item:hoover {
+  transform: scale(2);
+} */
 
 #zurek {
   font-style: cursive;
@@ -13,4 +16,8 @@ nav.navbar.navbar-default {
 #navbar {
   display: flex;
   justify-content: left;
+  
+}
+.navbar-light .navbar-nav .nav-link {
+  color: blue;
 }

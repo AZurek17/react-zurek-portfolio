@@ -32,6 +32,8 @@
 
 .pick:hover::after, .pass:hover::after {
   animation: iconBounce .57s 1;
+  font-size: 28px;
+  color:#E53935;
 }
 
 @keyframes iconBounce {
