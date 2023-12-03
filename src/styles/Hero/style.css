@@ -176,8 +176,8 @@
 
 #contactBg {
   background-image: url("../../images/Home.jpg");
-  background-size: 85%;
-  /* width: 100%; */
+  background-size: 100%;
+  width: 100%;
  min-height: 1010px;
   /* border-radius: 0%; */
   /* background-repeat: no-repeat; */
@@ -185,3 +185,5 @@
   /* min-height: 600px; */
   /* padding-bottom: 100px; */
 }
+
+

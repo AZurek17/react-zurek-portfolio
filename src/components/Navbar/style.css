@@ -1,10 +1,7 @@
-nav.navbar.navbar-default {
+/* nav.navbar.navbar-default {
   min-height: 150px;
   margin-bottom: 0;
   background: #e5e5e5;
-}
-/* .navbar-item:hoover {
-  transform: scale(2);
 } */
 
 
@@ -14,12 +11,22 @@ nav.navbar.navbar-default {
   color:blue
 }
 
-#navbar {
+/* #navbar {
   display: flex;
   justify-content: left;
   
-}
+} */
 .navbar-light .navbar-nav .nav-link {
     color: blue;
     
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  transform: scale(1.35);
+  transition: transform 0.5s;
+  color: black;
+}
+
+
+
+
